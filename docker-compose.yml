@@ -1,0 +1,10 @@
+services:
+  web:
+    image: ghcr.io/aymericshini/dashboard:latest # Replace with Docker Hub or GitHub image
+    ports:
+      - '82:3000'
+    environment:
+      - NODE_ENV=production
+    restart: always # Ensure the service restarts in case of failures
+    labels:
+      - 'com.centurylinklabs.watchtower.enable=true'
