@@ -45,7 +45,7 @@ export const services = [
   {
     name: 'Cooking',
     url: 'https://cooking.aymeric.app',
-    icon: '/icons/main_logo.png',
+    icon: '/icons/cooking.png',
     private: false,
     web: true,
   },
